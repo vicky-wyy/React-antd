@@ -1,0 +1,123 @@
+.base-style-card {
+  .ant-card-head-title {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .button-style {
+    button{
+      border-radius: 4px;
+      outline: none;
+      border-width: 0;
+      font-family: Microsoft YaHei; 
+    }
+  }
+  /* 修改table的左右padding值 */
+  .ant-card-body {
+    padding: 20px 0px;
+  }
+}
+.project-detail-modal {
+  .comment-list {
+    .ant-form-item {
+      margin-bottom: 10px;
+    }
+  }
+  .project-form {
+    .ant-form-item {
+      margin-bottom: 5px;
+      .ant-form-item-label {
+        margin-right: 5px;
+      }
+    }
+    .ant-input-affix-wrapper {
+      border-radius: 4px;
+    }
+    label {
+      font-weight: 700;
+    }
+  }
+  .ant-input {
+    border-radius: 6px;
+  }
+  .comment-button {
+    float: right;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0;
+    background-color: #52C41A;
+  }
+  .footer-button {
+    .footer-button-left {
+      button {
+        float: left;
+        border-width: 0;
+      }
+    }
+    .footer-button-right {
+      button {
+        float: right;
+      }
+    }
+    button {
+      margin-right: 10px;
+      border-radius: 5px;
+      outline: none;
+      box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+      font-family: Microsoft YaHei; 
+    }
+  }
+}
+.ant-modal-content {
+  border-radius: 5px;
+  .ant-modal-header {
+    border-radius: 5px;
+  }
+  .ant-form .add-input{
+    border-radius: 5px;
+  }
+  .ant-modal-footer {
+    button {
+      border-radius: 4px;
+      outline: none;
+      font-family: Microsoft YaHei; 
+    }
+  }
+}
+/* 设置table中内容固定，滑动按钮靠右侧居中，并且不出现内容移动的情况 */
+.project-name {
+  @media screen and (min-width:700px){
+    clear: both;
+    position: relative;
+    .project-name-left {
+      display: inline-block;
+      .project-name-left-title {
+        width: 280px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .project-name-right {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+    }
+  }
+  @media screen and (max-width:700px){
+    clear: both;
+    position: relative;
+    .project-name-left {
+      display: inline-block;
+      .project-name-left-title {
+        width: 170px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .project-name-right {
+      display: none;
+    }
+  }
+}
