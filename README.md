@@ -36,7 +36,7 @@ craco.config.js----antd的修改样式文件
 
 ![image](https://user-images.githubusercontent.com/48302076/163089216-11286033-1a14-4536-afe8-2bb91969753f.png)
 
-<img src="https://user-images.githubusercontent.com/48302076/163090269-7aadbae7-c7c4-4301-bab0-4c0e52a30368.png" width="400px">
+<img src="https://user-images.githubusercontent.com/48302076/163092891-e13b3728-ff55-4102-a24d-ff37c23fc3ed.png" width="400px">
 
 <img src="https://user-images.githubusercontent.com/48302076/163090411-b2d4040c-a5cc-418f-83c7-1058384a7970.png" width="400px">
 
