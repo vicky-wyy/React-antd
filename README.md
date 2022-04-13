@@ -22,14 +22,15 @@ craco.config.js----antd的修改样式文件
 2. 动态的左侧导航栏功能，可以实时的添加分类
 3. 添加项目
 4. 修改项目
-5. 项目评论（添加，修改和删除评论）
-6. 用户管理（可以给用户设置不同的角色）
-7. 角色管理（不同的角色看到的导航栏内容也是不一样滴）
-8. echarts图表功能----echarts-for-react@3.0.2
-9. 富文本功能----braft-editor@2.3.9
-10. 轮播图功能----rc-banner-anim@2.4.5
-11. 全屏功能----screenfull@6.0.1
-12. 动态修改项目主题----dynamic-antd-theme@0.8.6
+5. 鼠标滑动到table上有点赞功能
+6. 项目评论（添加，修改和删除评论）
+7. 用户管理（可以给用户设置不同的角色）
+8. 角色管理（不同的角色看到的导航栏内容也是不一样滴）
+9. echarts图表功能----echarts-for-react@3.0.2
+10. 富文本功能----braft-editor@2.3.9
+11. 轮播图功能----rc-banner-anim@2.4.5
+12. 全屏功能----screenfull@6.0.1
+13. 动态修改项目主题----dynamic-antd-theme@0.8.6
 # 项目截图
 ![image](https://user-images.githubusercontent.com/48302076/163088857-423118cf-fc78-40c0-af59-9f6d3e93746a.png)
 
